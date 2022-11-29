@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import ToggleHook from "./hooks/use-simple-toggle";
+import ToggleHook from "toggle-button-hook";
 
 function App() {
 	const [isOn, setIsOn] = ToggleHook();
